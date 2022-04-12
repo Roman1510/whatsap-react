@@ -1,3 +1,4 @@
+import Chat from '@/components/Chat'
 import Sidebar from '@/components/Sidebar'
 import './App.style.css'
 
@@ -6,7 +7,7 @@ const App = () => {
     <div className="app">
       <div className="app__body">
         <Sidebar />
-        {/* Chat */}
+        <Chat />
       </div>
     </div>
   )
