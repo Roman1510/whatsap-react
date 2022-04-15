@@ -10,7 +10,7 @@ const SidebarChat = ({ addNewChat }) => {
   const createChat = () => {
     const roomName = prompt('please enter name for chat')
     if (roomName) {
-      // do someting
+      alert('not implemented')
     }
   }
 
