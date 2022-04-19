@@ -43,6 +43,7 @@
   border: none;
   margin-left: 10px;
   outline: none;
+  width: 80%;
 }
 
 .sidebar__searchContainer > .MuiSvgIcon-root {
