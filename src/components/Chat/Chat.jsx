@@ -26,7 +26,9 @@ const Chat = () => {
           <MoreVert />
         </IconButton>
       </div>
-      <div className="chat__body"></div>
+      <div className="chat__body">
+        <p className="chat_message">hey guys</p>
+      </div>
       <div className="chat__footer"></div>
     </div>
   )
