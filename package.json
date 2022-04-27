@@ -1,5 +1,5 @@
 {
-  "name": "react-starter",
+  "name": "whatsapp-clone",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -25,5 +25,7 @@
     "eslint-plugin-react": "^7.29.4",
     "prettier": "^2.6.1",
     "vite": "^2.9.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
