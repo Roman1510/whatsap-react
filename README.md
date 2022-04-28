@@ -1,3 +1,3 @@
 # whatsap-react
 
-Whatsapp clone built with React and Firebase
+Whatsapp clone built with React and Firebase.

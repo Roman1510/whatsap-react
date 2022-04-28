@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import { Avatar, IconButton } from '@material-ui/core'
-import { AttachFile, Search, MoreVert } from '@material-ui/icons'
-import './Chat.style.css'
+import React, { useEffect, useState } from "react";
+import { Avatar, IconButton } from "@material-ui/core";
+import { AttachFile, Search, MoreVert } from "@material-ui/icons";
+import "./Chat.style.css";
 const Chat = () => {
-  const [seed, setSeed] = useState('')
+  const [seed, setSeed] = useState("");
   useEffect(() => {
-    setSeed(Math.random() * 500)
-  }, [])
+    setSeed(Math.random() * 500);
+  }, []);
 
   return (
     <div className="chat">
@@ -27,11 +27,14 @@ const Chat = () => {
         </IconButton>
       </div>
       <div className="chat__body">
-        <p className="chat_message">hey guys</p>
+        <p className="chat__message">
+          <span className="chat__name">askldfjaskl</span>
+          hey guys
+        </p>
       </div>
       <div className="chat__footer"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Chat
+export default Chat;
