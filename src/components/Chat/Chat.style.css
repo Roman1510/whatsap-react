@@ -32,6 +32,17 @@
   font-weight: bold;
 }
 
+.chat__timestamp {
+  font-size: xx-small;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.chat__receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
 .chat__headerInfo > h3 {
   margin-bottom: 3px;
   font-weight: 500;
